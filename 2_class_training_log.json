@@ -1,0 +1,861 @@
+{
+    "success": true,
+    "stdout": [
+      {
+        "created": "2025-03-31T23:06:50.122Z",
+        "data": "Model training complete\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:50.121Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:49.121Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:49.121Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:49.120Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:49.120Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:49.120Z",
+        "data": "Calculating int8 accuracy...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.120Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.119Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.119Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.119Z",
+        "data": "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.118Z",
+        "data": "Calculating float32 accuracy...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.118Z",
+        "data": "Calculating performance metrics...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:48.117Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:47.117Z",
+        "data": "Creating embeddings OK (took 8 seconds)\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:40.100Z",
+        "data": "[960/960] Creating embeddings...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:40.099Z",
+        "data": "[  0/960] Creating embeddings...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:39.100Z",
+        "data": "\nCreating embeddings...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:39.100Z",
+        "data": "Loading data for profiling OK\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:39.099Z",
+        "data": "Loading data for profiling...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:32.087Z",
+        "data": "Converting TensorFlow Lite int8 quantized model...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:31.088Z",
+        "data": "Converting TensorFlow Lite float32 model...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:31.087Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:31.087Z",
+        "data": "Saving best performing model OK\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.089Z",
+        "data": "Epoch 89/90\n24/24 - 0s - loss: 0.3592 - accuracy: 0.8555 - val_loss: 0.3379 - val_accuracy: 0.8802 - 90ms/epoch - 4ms/step\nEpoch 90/90\n24/24 - 0s - loss: 0.3740 - accuracy: 0.8398 - val_loss: 0.3272 - val_accuracy: 0.8854 - 106ms/epoch - 4ms/step\nFinished training\n\nSaving best performing model... (based on validation loss)\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.088Z",
+        "data": "24/24 - 0s - loss: 0.3876 - accuracy: 0.8398 - val_loss: 0.3274 - val_accuracy: 0.8854 - 115ms/epoch - 5ms/step\nEpoch 88/90\n24/24 - 0s - loss: 0.3953 - accuracy: 0.8333 - val_loss: 0.3389 - val_accuracy: 0.8906 - 96ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.088Z",
+        "data": "Epoch 87/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.088Z",
+        "data": "24/24 - 0s - loss: 0.3985 - accuracy: 0.8320 - val_loss: 0.3239 - val_accuracy: 0.8854 - 110ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.088Z",
+        "data": "Epoch 86/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.086Z",
+        "data": "Epoch 84/90\n24/24 - 0s - loss: 0.4005 - accuracy: 0.8372 - val_loss: 0.3421 - val_accuracy: 0.8906 - 97ms/epoch - 4ms/step\nEpoch 85/90\n24/24 - 0s - loss: 0.3592 - accuracy: 0.8594 - val_loss: 0.3440 - val_accuracy: 0.8854 - 106ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:30.085Z",
+        "data": "24/24 - 0s - loss: 0.3913 - accuracy: 0.8307 - val_loss: 0.3420 - val_accuracy: 0.8854 - 105ms/epoch - 4ms/step\nEpoch 83/90\n24/24 - 0s - loss: 0.3853 - accuracy: 0.8372 - val_loss: 0.3422 - val_accuracy: 0.8854 - 101ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.087Z",
+        "data": "Epoch 82/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.087Z",
+        "data": "24/24 - 0s - loss: 0.3980 - accuracy: 0.8216 - val_loss: 0.3484 - val_accuracy: 0.8854 - 83ms/epoch - 3ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.087Z",
+        "data": "Epoch 81/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.086Z",
+        "data": "Epoch 80/90\n24/24 - 0s - loss: 0.4139 - accuracy: 0.8216 - val_loss: 0.3448 - val_accuracy: 0.8854 - 112ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.086Z",
+        "data": "24/24 - 0s - loss: 0.4195 - accuracy: 0.8125 - val_loss: 0.3465 - val_accuracy: 0.8906 - 89ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.086Z",
+        "data": "24/24 - 0s - loss: 0.4051 - accuracy: 0.8333 - val_loss: 0.3418 - val_accuracy: 0.8854 - 101ms/epoch - 4ms/step\nEpoch 79/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.086Z",
+        "data": "Epoch 78/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.085Z",
+        "data": "24/24 - 0s - loss: 0.3889 - accuracy: 0.8424 - val_loss: 0.3642 - val_accuracy: 0.8750 - 100ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.085Z",
+        "data": "Epoch 77/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.085Z",
+        "data": "24/24 - 0s - loss: 0.4085 - accuracy: 0.8177 - val_loss: 0.3410 - val_accuracy: 0.8906 - 100ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.085Z",
+        "data": "24/24 - 0s - loss: 0.4158 - accuracy: 0.8060 - val_loss: 0.3374 - val_accuracy: 0.9010 - 116ms/epoch - 5ms/step\nEpoch 76/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.084Z",
+        "data": "24/24 - 0s - loss: 0.4050 - accuracy: 0.8242 - val_loss: 0.3530 - val_accuracy: 0.8854 - 97ms/epoch - 4ms/step\nEpoch 75/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.084Z",
+        "data": "Epoch 74/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.083Z",
+        "data": "24/24 - 0s - loss: 0.4291 - accuracy: 0.8242 - val_loss: 0.3543 - val_accuracy: 0.8854 - 101ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.083Z",
+        "data": "Epoch 73/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:29.083Z",
+        "data": "24/24 - 0s - loss: 0.4412 - accuracy: 0.8138 - val_loss: 0.3515 - val_accuracy: 0.8906 - 135ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.085Z",
+        "data": "24/24 - 0s - loss: 0.4062 - accuracy: 0.8281 - val_loss: 0.3586 - val_accuracy: 0.8854 - 104ms/epoch - 4ms/step\nEpoch 72/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.085Z",
+        "data": "24/24 - 0s - loss: 0.4048 - accuracy: 0.8242 - val_loss: 0.3658 - val_accuracy: 0.8906 - 109ms/epoch - 5ms/step\nEpoch 71/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.084Z",
+        "data": "Epoch 70/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.084Z",
+        "data": "Epoch 69/90\n24/24 - 0s - loss: 0.4289 - accuracy: 0.8008 - val_loss: 0.3727 - val_accuracy: 0.8802 - 108ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.084Z",
+        "data": "24/24 - 0s - loss: 0.4278 - accuracy: 0.8216 - val_loss: 0.3836 - val_accuracy: 0.8750 - 65ms/epoch - 3ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.083Z",
+        "data": "Epoch 68/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.083Z",
+        "data": "24/24 - 0s - loss: 0.4413 - accuracy: 0.8086 - val_loss: 0.3913 - val_accuracy: 0.8750 - 103ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.083Z",
+        "data": "Epoch 67/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.083Z",
+        "data": "24/24 - 0s - loss: 0.4183 - accuracy: 0.8242 - val_loss: 0.3912 - val_accuracy: 0.8750 - 93ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.082Z",
+        "data": "Epoch 66/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.082Z",
+        "data": "24/24 - 0s - loss: 0.4310 - accuracy: 0.8060 - val_loss: 0.3881 - val_accuracy: 0.8698 - 115ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.082Z",
+        "data": "Epoch 65/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.082Z",
+        "data": "24/24 - 0s - loss: 0.4232 - accuracy: 0.8203 - val_loss: 0.3857 - val_accuracy: 0.8542 - 96ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.081Z",
+        "data": "Epoch 64/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:28.080Z",
+        "data": "24/24 - 0s - loss: 0.4367 - accuracy: 0.8047 - val_loss: 0.3802 - val_accuracy: 0.8750 - 139ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.083Z",
+        "data": "Epoch 63/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.083Z",
+        "data": "24/24 - 0s - loss: 0.4324 - accuracy: 0.8216 - val_loss: 0.3978 - val_accuracy: 0.8750 - 99ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.082Z",
+        "data": "Epoch 62/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.082Z",
+        "data": "24/24 - 0s - loss: 0.4407 - accuracy: 0.8190 - val_loss: 0.4005 - val_accuracy: 0.8750 - 100ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.082Z",
+        "data": "Epoch 61/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.082Z",
+        "data": "24/24 - 0s - loss: 0.4283 - accuracy: 0.8086 - val_loss: 0.4000 - val_accuracy: 0.8750 - 88ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.082Z",
+        "data": "Epoch 60/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.081Z",
+        "data": "24/24 - 0s - loss: 0.4231 - accuracy: 0.7956 - val_loss: 0.4024 - val_accuracy: 0.8594 - 119ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.081Z",
+        "data": "Epoch 59/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.081Z",
+        "data": "24/24 - 0s - loss: 0.4706 - accuracy: 0.7786 - val_loss: 0.3974 - val_accuracy: 0.8802 - 128ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.080Z",
+        "data": "24/24 - 0s - loss: 0.4672 - accuracy: 0.7799 - val_loss: 0.4044 - val_accuracy: 0.8802 - 129ms/epoch - 5ms/step\nEpoch 58/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.080Z",
+        "data": "Epoch 57/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.080Z",
+        "data": "24/24 - 0s - loss: 0.4439 - accuracy: 0.7943 - val_loss: 0.4149 - val_accuracy: 0.8698 - 128ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.079Z",
+        "data": "Epoch 56/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:27.079Z",
+        "data": "24/24 - 0s - loss: 0.4818 - accuracy: 0.7839 - val_loss: 0.4258 - val_accuracy: 0.8646 - 84ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.081Z",
+        "data": "Epoch 55/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.081Z",
+        "data": "Epoch 54/90\n24/24 - 0s - loss: 0.4720 - accuracy: 0.7865 - val_loss: 0.4339 - val_accuracy: 0.8490 - 99ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.080Z",
+        "data": "Epoch 53/90\n24/24 - 0s - loss: 0.4832 - accuracy: 0.7852 - val_loss: 0.4414 - val_accuracy: 0.8490 - 70ms/epoch - 3ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.080Z",
+        "data": "24/24 - 0s - loss: 0.4855 - accuracy: 0.7799 - val_loss: 0.4263 - val_accuracy: 0.8646 - 112ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.080Z",
+        "data": "24/24 - 0s - loss: 0.4875 - accuracy: 0.7734 - val_loss: 0.4417 - val_accuracy: 0.8594 - 118ms/epoch - 5ms/step\nEpoch 52/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.079Z",
+        "data": "24/24 - 0s - loss: 0.5043 - accuracy: 0.7539 - val_loss: 0.4430 - val_accuracy: 0.8646 - 152ms/epoch - 6ms/step\nEpoch 51/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.079Z",
+        "data": "Epoch 50/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.079Z",
+        "data": "24/24 - 0s - loss: 0.4949 - accuracy: 0.7643 - val_loss: 0.4444 - val_accuracy: 0.8333 - 108ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.079Z",
+        "data": "Epoch 49/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.078Z",
+        "data": "Epoch 48/90\n24/24 - 0s - loss: 0.4926 - accuracy: 0.7786 - val_loss: 0.4445 - val_accuracy: 0.8490 - 110ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:26.078Z",
+        "data": "24/24 - 0s - loss: 0.4844 - accuracy: 0.7682 - val_loss: 0.4509 - val_accuracy: 0.8229 - 118ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.080Z",
+        "data": "Epoch 47/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.079Z",
+        "data": "24/24 - 0s - loss: 0.4901 - accuracy: 0.7604 - val_loss: 0.4605 - val_accuracy: 0.8229 - 141ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.079Z",
+        "data": "Epoch 46/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.079Z",
+        "data": "Epoch 45/90\n24/24 - 0s - loss: 0.4921 - accuracy: 0.7643 - val_loss: 0.4634 - val_accuracy: 0.8385 - 115ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.079Z",
+        "data": "24/24 - 0s - loss: 0.4940 - accuracy: 0.7682 - val_loss: 0.4727 - val_accuracy: 0.8438 - 131ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.078Z",
+        "data": "24/24 - 0s - loss: 0.5199 - accuracy: 0.7448 - val_loss: 0.4804 - val_accuracy: 0.8385 - 149ms/epoch - 6ms/step\nEpoch 44/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.078Z",
+        "data": "Epoch 43/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.077Z",
+        "data": "Epoch 42/90\n24/24 - 0s - loss: 0.5391 - accuracy: 0.7474 - val_loss: 0.4853 - val_accuracy: 0.8385 - 103ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.077Z",
+        "data": "Epoch 41/90\n24/24 - 0s - loss: 0.5359 - accuracy: 0.7292 - val_loss: 0.4878 - val_accuracy: 0.8438 - 87ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.077Z",
+        "data": "24/24 - 0s - loss: 0.5381 - accuracy: 0.7018 - val_loss: 0.4849 - val_accuracy: 0.8490 - 110ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.076Z",
+        "data": "Epoch 40/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:25.076Z",
+        "data": "24/24 - 0s - loss: 0.5150 - accuracy: 0.7357 - val_loss: 0.4999 - val_accuracy: 0.8021 - 125ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.077Z",
+        "data": "24/24 - 0s - loss: 0.5627 - accuracy: 0.7044 - val_loss: 0.5046 - val_accuracy: 0.8333 - 147ms/epoch - 6ms/step\nEpoch 38/90\n24/24 - 0s - loss: 0.5317 - accuracy: 0.7305 - val_loss: 0.5077 - val_accuracy: 0.8125 - 101ms/epoch - 4ms/step\nEpoch 39/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.076Z",
+        "data": "Epoch 36/90\n24/24 - 0s - loss: 0.5535 - accuracy: 0.7174 - val_loss: 0.5121 - val_accuracy: 0.8281 - 87ms/epoch - 4ms/step\nEpoch 37/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.076Z",
+        "data": "Epoch 35/90\n24/24 - 0s - loss: 0.5642 - accuracy: 0.7109 - val_loss: 0.5229 - val_accuracy: 0.8438 - 115ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.075Z",
+        "data": "24/24 - 0s - loss: 0.5518 - accuracy: 0.7161 - val_loss: 0.5211 - val_accuracy: 0.8438 - 124ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.075Z",
+        "data": "Epoch 34/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:24.075Z",
+        "data": "24/24 - 0s - loss: 0.5437 - accuracy: 0.7135 - val_loss: 0.5325 - val_accuracy: 0.8438 - 138ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.076Z",
+        "data": "Epoch 33/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.075Z",
+        "data": "Epoch 32/90\n24/24 - 0s - loss: 0.5997 - accuracy: 0.6745 - val_loss: 0.5431 - val_accuracy: 0.8438 - 132ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.075Z",
+        "data": "24/24 - 0s - loss: 0.5851 - accuracy: 0.6992 - val_loss: 0.5598 - val_accuracy: 0.8438 - 137ms/epoch - 6ms/step\nEpoch 31/90\n24/24 - 0s - loss: 0.5824 - accuracy: 0.7109 - val_loss: 0.5473 - val_accuracy: 0.8490 - 127ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.074Z",
+        "data": "Epoch 30/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.074Z",
+        "data": "Epoch 29/90\n24/24 - 0s - loss: 0.5838 - accuracy: 0.6914 - val_loss: 0.5636 - val_accuracy: 0.8333 - 131ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.074Z",
+        "data": "24/24 - 0s - loss: 0.5990 - accuracy: 0.6758 - val_loss: 0.5718 - val_accuracy: 0.8385 - 145ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.073Z",
+        "data": "24/24 - 0s - loss: 0.5955 - accuracy: 0.6719 - val_loss: 0.5851 - val_accuracy: 0.8333 - 119ms/epoch - 5ms/step\nEpoch 28/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.073Z",
+        "data": "Epoch 27/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.073Z",
+        "data": "24/24 - 0s - loss: 0.6264 - accuracy: 0.6641 - val_loss: 0.5891 - val_accuracy: 0.8333 - 112ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:23.073Z",
+        "data": "Epoch 26/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.074Z",
+        "data": "Epoch 25/90\n24/24 - 0s - loss: 0.6636 - accuracy: 0.6589 - val_loss: 0.5974 - val_accuracy: 0.8281 - 121ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.074Z",
+        "data": "24/24 - 0s - loss: 0.6345 - accuracy: 0.6198 - val_loss: 0.6011 - val_accuracy: 0.8125 - 131ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.074Z",
+        "data": "Epoch 24/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.073Z",
+        "data": "Epoch 23/90\n24/24 - 0s - loss: 0.6101 - accuracy: 0.6354 - val_loss: 0.6107 - val_accuracy: 0.8177 - 102ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.073Z",
+        "data": "24/24 - 0s - loss: 0.6157 - accuracy: 0.6406 - val_loss: 0.6173 - val_accuracy: 0.7708 - 99ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.073Z",
+        "data": "Epoch 22/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.073Z",
+        "data": "24/24 - 0s - loss: 0.6444 - accuracy: 0.6263 - val_loss: 0.6180 - val_accuracy: 0.7552 - 111ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.072Z",
+        "data": "Epoch 21/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.072Z",
+        "data": "24/24 - 0s - loss: 0.6268 - accuracy: 0.6081 - val_loss: 0.6269 - val_accuracy: 0.7552 - 100ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.072Z",
+        "data": "Epoch 20/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.072Z",
+        "data": "24/24 - 0s - loss: 0.6529 - accuracy: 0.6380 - val_loss: 0.6387 - val_accuracy: 0.7344 - 133ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.071Z",
+        "data": "Epoch 19/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.071Z",
+        "data": "24/24 - 0s - loss: 0.6857 - accuracy: 0.5977 - val_loss: 0.6452 - val_accuracy: 0.7500 - 124ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.071Z",
+        "data": "Epoch 18/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:22.070Z",
+        "data": "24/24 - 0s - loss: 0.6932 - accuracy: 0.6003 - val_loss: 0.6506 - val_accuracy: 0.6979 - 107ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.072Z",
+        "data": "Epoch 17/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.072Z",
+        "data": "24/24 - 0s - loss: 0.6915 - accuracy: 0.6133 - val_loss: 0.6567 - val_accuracy: 0.6719 - 89ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.072Z",
+        "data": "Epoch 16/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.072Z",
+        "data": "Epoch 15/90\n24/24 - 0s - loss: 0.7266 - accuracy: 0.5846 - val_loss: 0.6642 - val_accuracy: 0.6667 - 111ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "24/24 - 0s - loss: 0.7380 - accuracy: 0.5573 - val_loss: 0.6697 - val_accuracy: 0.6250 - 97ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "Epoch 14/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "24/24 - 0s - loss: 0.7000 - accuracy: 0.5898 - val_loss: 0.6722 - val_accuracy: 0.6146 - 110ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "Epoch 13/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "Epoch 12/90\n24/24 - 0s - loss: 0.7195 - accuracy: 0.5768 - val_loss: 0.6761 - val_accuracy: 0.5781 - 100ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.071Z",
+        "data": "24/24 - 0s - loss: 0.7636 - accuracy: 0.5716 - val_loss: 0.6794 - val_accuracy: 0.5677 - 135ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.070Z",
+        "data": "Epoch 11/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.070Z",
+        "data": "24/24 - 0s - loss: 0.7778 - accuracy: 0.5573 - val_loss: 0.6821 - val_accuracy: 0.4948 - 122ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.070Z",
+        "data": "Epoch 10/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:21.069Z",
+        "data": "24/24 - 0s - loss: 0.7592 - accuracy: 0.5638 - val_loss: 0.6854 - val_accuracy: 0.4271 - 117ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.071Z",
+        "data": "Epoch 9/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.071Z",
+        "data": "24/24 - 0s - loss: 0.8706 - accuracy: 0.5482 - val_loss: 0.6883 - val_accuracy: 0.3854 - 83ms/epoch - 3ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.071Z",
+        "data": "Epoch 8/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.070Z",
+        "data": "24/24 - 0s - loss: 0.8614 - accuracy: 0.5547 - val_loss: 0.6915 - val_accuracy: 0.3854 - 105ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.070Z",
+        "data": "Epoch 7/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.070Z",
+        "data": "24/24 - 0s - loss: 0.8779 - accuracy: 0.5430 - val_loss: 0.6956 - val_accuracy: 0.3750 - 117ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.069Z",
+        "data": "Epoch 6/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.069Z",
+        "data": "24/24 - 0s - loss: 0.9669 - accuracy: 0.5378 - val_loss: 0.6984 - val_accuracy: 0.3750 - 140ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.069Z",
+        "data": "Epoch 5/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.068Z",
+        "data": "24/24 - 0s - loss: 1.2316 - accuracy: 0.5234 - val_loss: 0.7048 - val_accuracy: 0.3750 - 97ms/epoch - 4ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.068Z",
+        "data": "Epoch 4/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.068Z",
+        "data": "24/24 - 0s - loss: 1.2424 - accuracy: 0.5365 - val_loss: 0.7061 - val_accuracy: 0.3802 - 109ms/epoch - 5ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.067Z",
+        "data": "Epoch 3/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:20.067Z",
+        "data": "24/24 - 0s - loss: 1.6688 - accuracy: 0.5299 - val_loss: 0.6867 - val_accuracy: 0.4635 - 133ms/epoch - 6ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:19.065Z",
+        "data": "Epoch 2/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:19.065Z",
+        "data": "24/24 - 1s - loss: 2.3066 - accuracy: 0.5195 - val_loss: 0.6065 - val_accuracy: 0.6667 - 1s/epoch - 59ms/step\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:18.063Z",
+        "data": "\nTraining model...\nTraining on 768 inputs, validating on 192 inputs\nUsing batch size: 32\nEpoch 1/90\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:18.062Z",
+        "data": "Splitting data into training and validation sets OK\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:17.061Z",
+        "data": "Splitting data into training and validation sets...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:07.037Z",
+        "data": "[spinner-done] Job started \u001B[0;37mat 31 Mar 2025 23:06:03\u001B[0m\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:07.037Z",
+        "data": "[spinner-done] Job scheduled \u001B[0;37mat 31 Mar 2025 23:06:03\u001B[0m\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:02.326Z",
+        "data": "\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:02.326Z",
+        "data": "Initializing job pod OK\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:06:00.046Z",
+        "data": "Initializing job pod...\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:05:56.153Z",
+        "data": "[spinner-done] Job started \u001B[0;37mat 31 Mar 2025 23:05:54\u001B[0m\n",
+        "logLevel": "info"
+      },
+      {
+        "created": "2025-03-31T23:05:55.197Z",
+        "data": "[spinner-done] Job scheduled \u001B[0;37mat 31 Mar 2025 23:05:52\u001B[0m\n",
+        "logLevel": "info"
+      }
+    ],
+    "totalCount": 175
+  }
