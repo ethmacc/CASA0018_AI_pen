@@ -13,7 +13,7 @@ This repository contains the code to create a simple AI-powered pen attachment. 
 ## Materials
 You will need the following components to build this project:
 - Arduino Nano BLE 33 Sense
-- Adafruit Neopixl 8-strip
+- Adafruit Neopixel 8-strip
 - 
 
 ## Setup
