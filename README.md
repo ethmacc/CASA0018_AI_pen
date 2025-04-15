@@ -3,7 +3,7 @@
 2. [Materials](#Materials)
 3. [Setup](#Setup)
 4. [Build Documentation](#Build-documentation)
-5. [Neural Network Training](#Neural-netowrk-training)
+5. [Neural Network Training](#Neural-network-training)
 6. [External Links](#External-links)
 
 ## Introduction
