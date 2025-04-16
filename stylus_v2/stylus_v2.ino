@@ -15,7 +15,7 @@
  */
 
 /* Includes ---------------------------------------------------------------- */
-#include <Stylus_v2_v7_inferencing.h>
+#include <Stylus_v2_inferencing.h>
 #include <Arduino_LSM9DS1.h> //Click here to get the library: https://www.arduino.cc/reference/en/libraries/arduino_lsm9ds1/
 #include <Adafruit_NeoPixel.h>
 
