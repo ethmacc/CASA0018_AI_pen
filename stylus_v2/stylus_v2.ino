@@ -85,6 +85,8 @@ eiSensors sensors[] =
     "gyrZ", &data[5], &poll_gyr, &init_IMU, NOT_USED,
 };
 
+float currentAccX = data[0];
+
 /**
 * @brief      Arduino setup function
 */
@@ -123,7 +125,14 @@ void setup()
 * @brief      Get data and run inferencing
 */
 void loop()
-{
+{   
+    for(int i = 0; i < fusion_ix; i++) {
+        sensors[fusion_sensors[i]].poll_sensor();
+    }
+    if ( fabs(currentAccX - data[0]) > 0.1 ) {
+        Serial.println("X moved");
+    
+
     ei_printf("\nStarting inferencing in 2 seconds...\r\n");
 
     delay(2000);
@@ -206,6 +215,8 @@ void loop()
 #if EI_CLASSIFIER_HAS_ANOMALY == 1
     ei_printf("    anomaly score: %.3f\r\n", result.anomaly);
 #endif
+    }
+currentAccX = data[0];
 }
 
 #if !defined(EI_CLASSIFIER_SENSOR) || (EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_FUSION && EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_ACCELEROMETER)
