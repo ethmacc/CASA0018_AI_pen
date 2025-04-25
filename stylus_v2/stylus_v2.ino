@@ -6,7 +6,7 @@
  * You may obtain a copy of the License at
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing, software
+ * Unless requiorange by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
@@ -22,9 +22,10 @@
 #define NUMPIXELS 8
 #define LEDPin D5
 Adafruit_NeoPixel pixels(NUMPIXELS, LEDPin);
-uint32_t yellow = pixels.Color(20, 20, 0);
-uint32_t red = pixels.Color(20, 0, 0);
+uint32_t green = pixels.Color(0, 20, 0);
+uint32_t orange = pixels.Color(20, 10, 0);
 uint32_t blue = pixels.Color(0, 0, 20);
+uint32_t red = pixels.Color(20, 0, 0);
 
 enum sensor_status {
     NOT_USED = -1,
@@ -73,6 +74,7 @@ static bool ei_connect_fusion_list(const char *input_list);
 
 static int8_t fusion_sensors[N_SENSORS];
 static int fusion_ix = 0;
+static bool one_more;
 
 /** Used sensors value function connected to label name */
 eiSensors sensors[] =
@@ -97,7 +99,7 @@ void setup()
     // Start neopixel
     pixels.begin();
     // comment out the below line to cancel the wait for USB connection (needed for native USB)
-    while (!Serial);
+    //while (!Serial);
     Serial.println("Edge Impulse Sensor Fusion Inference\r\n");
 
     /* Connect used sensors */
@@ -129,20 +131,30 @@ void loop()
     for(int i = 0; i < fusion_ix; i++) {
         sensors[fusion_sensors[i]].poll_sensor();
     }
-    if ( fabs(currentAccX - data[0]) > 0.1 ) {
+    if (( fabs(currentAccX - data[0]) > 0.1 ) || (one_more == true)) {
         Serial.println("X moved");
-    
+        if (one_more != true) {
+            one_more = true;
+        }
+        else {
+            one_more = false;
+        }
 
     ei_printf("\nStarting inferencing in 2 seconds...\r\n");
 
-    delay(2000);
+    for (int i = 1; i < 9; i += 1) {
+        pixels.clear();
+        pixels.fill(orange, 0, i);
+        pixels.show();
+        delay(250);
+    }
     pixels.clear();
     pixels.fill(red, 0, 8);
     pixels.show();
 
     if (EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME != fusion_ix) {
-        ei_printf("ERR: Sensors don't match the sensors required in the model\r\n"
-        "Following sensors are required: %s\r\n", EI_CLASSIFIER_FUSION_AXES_STRING);
+        ei_printf("ERR: Sensors don't match the sensors requiorange in the model\r\n"
+        "Following sensors are requiorange: %s\r\n", EI_CLASSIFIER_FUSION_AXES_STRING);
         return;
     }
 
@@ -190,8 +202,8 @@ void loop()
         return;
     }
 
-    // print the predictions
-    ei_printf("Predictions (DSP: %d ms., Classification: %d ms., Anomaly: %d ms.):\r\n",
+    // print the porangeictions
+    ei_printf("Porangeictions (DSP: %d ms., Classification: %d ms., Anomaly: %d ms.):\r\n",
         result.timing.dsp, result.timing.classification, result.timing.anomaly);
     const char* key = result.classification[0].label;
     float max = result.classification[0].value;
@@ -206,16 +218,21 @@ void loop()
     int num_leds = atoi(key);
     pixels.clear();
     if (num_leds > 0){
-        pixels.fill(yellow, 0, num_leds);
+        pixels.fill(green, 0, num_leds);
     }
     else {
         pixels.fill(blue, 0, 1);
     }
     pixels.show();
+    delay(2000);
 #if EI_CLASSIFIER_HAS_ANOMALY == 1
     ei_printf("    anomaly score: %.3f\r\n", result.anomaly);
 #endif
-    }
+}
+else{
+    pixels.clear();
+    pixels.show();
+}
 currentAccX = data[0];
 }
 
