@@ -9,6 +9,7 @@
 ## Introduction
 This repository contains the code to create a simple AI-powered pen attachment. The pen attachment is able to recognize the gestures of writing handwritten numerals from 0-7, with the help of a tiny Convolutional Neural Network model, optimized to run on the Arduino Nano BLE 33 Sense.
 
+<img src="https://github.com/user-attachments/assets/f4df4c0d-b710-4045-9088-4c4e4efbf543" width="600" />
 
 ## Materials
 You will need the following components to build this project:
