@@ -22,7 +22,7 @@ You will need the following components to build this project:
 - An ink pen
 
 ## Quickstart
-### Setup
+### Software Setup
 First, clone the repository using ```git clone https://github.com/ethmacc/CASA0018_SmartScribble_AI_pen_prototype```
 
 If you want to run the project as-is, without any modifications, simply use the Arduino IDE's import zip library function to import the model and support code:
