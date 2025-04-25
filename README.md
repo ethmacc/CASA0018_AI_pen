@@ -78,12 +78,13 @@ As mentioned, the model architecture is that of a Convolutional Neural Network (
 You can find the record of the experiments run to determined the best hyperparameters and model architecture in the EON Tuner section of the Edge Impulse project page.
 
 ## Limitations and future work
-The model was trained using a free account on Edge Impulse and therefore compute time was limited. You may find that your mileage may vary if you already have or decide to purchase a subscription from Edge Impulse. At present, the model is limited to classifying only the 8 classes of the numerals 0-7. It has also been trained solely on one person's handwriting data, and therefore may not be as accurate as could be. In particular, the numerals 0 & 6 and 1 & 4 are easily confused, likely due to the similar pen strokes required to draw these characters.
+The model was trained using a free account on Edge Impulse and therefore compute time was limited. You may find that your mileage may vary if you already have or decide to purchase a subscription from Edge Impulse. At present, the model is limited to classifying only the 8 classes of the numerals 0-7. It has also been trained solely on one person's handwriting data, and therefore may not be as accurate as it could be. In particular, the numerals 0 & 6 and 1 & 4 are easily confused, likely due to the similar pen strokes required to draw these characters.
 
 Additionally, in terms of hardware, it is probably worth investigating if the electronics can be miniaturised by using a custom PCB. The prototype device also currently runs off a 5V powerbank, and it would be much better if the power supply could be integrated into the pen itself to improve ergonomics and appearance.
 
 ## External Links
 Edge Impulse project: https://studio.edgeimpulse.com/studio/661138
+Edge Impulse help and documentation: https://docs.edgeimpulse.com/docs
 
 Suggested further reading:
 - AI at the Edge by Situnayake and Plunkett
