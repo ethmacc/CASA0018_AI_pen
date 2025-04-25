@@ -1,7 +1,7 @@
 # CASA0018_Deep_Learning
 1. [Introduction](#Introduction)
 2. [Materials](#Materials)
-3. [Setup & build](#Setup-&-build)
+3. [Setup & build](#Setup-and-build)
 4. [Neural Network Training](#Neural-network-training)
 5. [Arduino code](#Arduino-code)
 6. [External Links](#External-links)
@@ -16,7 +16,7 @@ You will need the following components to build this project:
 - Adafruit Neopixel 8-strip
 - 
 
-## Setup & build
+## Setup and build
 
 ## Neural Network Training
 
