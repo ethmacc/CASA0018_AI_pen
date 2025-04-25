@@ -40,7 +40,7 @@ Using the protoboard, the wire and the pin headers, construct a small shield mod
 
 The circuit diagram for the protoboard is also shown below, using fritzing:
 
-<img src="https://github.com/user-attachments/assets/630205bd-90a1-436f-8b83-0ec88d52b4be" height= "600" />
+<img src="https://github.com/user-attachments/assets/630205bd-90a1-436f-8b83-0ec88d52b4be" height="600" />
 
 ### Enclosure
 
