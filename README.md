@@ -30,7 +30,22 @@ If you want to run the project as-is, without any modifications, simply use the 
 
 The zip library to use should be ```ei-stylus_v2-arduino-1.0.6.zip``` found in the ```builds``` folder. This contains the int8 quantized version of the best performing model found from my training runs.
 
-Once that is done, flash the main ```stylus_v2.ino``` Arduino script onto your Nano 33 BLE Sense. This can be found in the ```stylus_v2``` folder. The device does not 
+Once that is done, flash the main ```stylus_v2.ino``` Arduino script onto your Nano 33 BLE Sense. This can be found in the ```stylus_v2``` folder. 
+
+### Usage
+1. The device does not call the model to start running inference on your handwriting until you have moved it. This is due to a conditional in the code, which does not start the inference cycle if no movement is detected in the onboard inertial measurement unit (IMU)
+
+<img src="https://github.com/user-attachments/assets/74adc9b1-2a31-4d87-82e7-8fb365f3c2a4" width="600" />
+
+3. Once the inference cycle has started, use the indicators displayed on the LED strip at the end of the pen to time your writing. Orange lights filling up from the bottom of the LED strip to the top indicate the model is loading and you must get ready. Red indicates that you should start writing, you have 2 seconds to write a single numeral.
+
+<img src="https://github.com/user-attachments/assets/72154b05-8926-45c0-9f26-3c4d8d40c28d" width="600" />
+
+<img src="https://github.com/user-attachments/assets/94d621e3-3e33-4ed6-b1eb-4040ce9f35fe" width="600" />
+
+4. Once inference is completed, the result will be displayed on the LED strip. A single blue light indicates that the thinks the numeral you have written is a 0, while green lights indicate that the number was recognized as more than 0. The number of green lights displays corresponds to the numeral that was recognized.
+
+<img src="https://github.com/user-attachments/assets/5fbe3be8-6559-439e-9ca4-060c5f73f5da" width="600" />
 
 ## Neural Network Training
 
