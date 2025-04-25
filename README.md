@@ -84,6 +84,7 @@ Additionally, in terms of hardware, it is probably worth investigating if the el
 
 ## External Links
 Edge Impulse project: https://studio.edgeimpulse.com/studio/661138
+
 Edge Impulse help and documentation: https://docs.edgeimpulse.com/docs
 
 Suggested further reading:
