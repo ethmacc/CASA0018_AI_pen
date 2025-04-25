@@ -1,4 +1,4 @@
-# CASA0018_Deep_Learning
+# CASA0018_SmartScribble
 1. [Introduction](#Introduction)
 2. [Materials](#Materials)
 3. [Setup & build](#Setup-and-build)
