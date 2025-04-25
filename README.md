@@ -1,9 +1,9 @@
 # CASA0018_Deep_Learning
 1. [Introduction](#Introduction)
 2. [Materials](#Materials)
-3. [Setup](#Setup)
-4. [Build Documentation](#Build-documentation)
-5. [Neural Network Training](#Neural-network-training)
+3. [Setup & build](#Setup-&-build)
+4. [Neural Network Training](#Neural-network-training)
+5. [Arduino code](#Arduino-code)
 6. [External Links](#External-links)
 
 ## Introduction
@@ -16,11 +16,11 @@ You will need the following components to build this project:
 - Adafruit Neopixel 8-strip
 - 
 
-## Setup
-
-## Build Documentation
+## Setup & build
 
 ## Neural Network Training
+
+## Arduino code
 
 ## External Links
 Edge Impulse project: https://studio.edgeimpulse.com/studio/661138
