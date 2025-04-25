@@ -22,6 +22,7 @@ You will need the following components to build this project:
 - An ink pen
 
 ## Quickstart
+### Setup
 First, clone the repository using ```git clone https://github.com/ethmacc/CASA0018_SmartScribble_AI_pen_prototype```
 
 If you want to run the project as-is, without any modifications, simply use the Arduino IDE's import zip library function to import the model and support code:
@@ -31,6 +32,17 @@ If you want to run the project as-is, without any modifications, simply use the 
 The zip library to use should be ```ei-stylus_v2-arduino-1.0.6.zip``` found in the ```builds``` folder. This contains the int8 quantized version of the best performing model found from my training runs.
 
 Once that is done, flash the main ```stylus_v2.ino``` Arduino script onto your Nano 33 BLE Sense. This can be found in the ```stylus_v2``` folder. 
+
+### Circuit
+Using the protoboard, the wire and the pin headers, construct a small shield module to fit under the Nano. The protoboard should be no larger than the 2d footprint of the Nano in order to fit in the enclosure. The suggested arrangement of the components on the protoboard is shown below:
+
+<img src="https://github.com/user-attachments/assets/60d2f44e-1cf0-4388-90c7-5803dc49e286" width="600" />
+
+The circuit diagram for the protoboard is also shown below, using fritzing:
+
+<img src="https://github.com/user-attachments/assets/630205bd-90a1-436f-8b83-0ec88d52b4be" height= "600" />
+
+### Enclosure
 
 ### Usage
 1. The device does not call the model to start running inference on your handwriting until you have moved it. This is due to a conditional in the code, which does not start the inference cycle if no movement is detected in the onboard inertial measurement unit (IMU)
