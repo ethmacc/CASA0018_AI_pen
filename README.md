@@ -3,7 +3,7 @@
 2. [Materials](#Materials)
 3. [Quickstart](#Quickstart)
 4. [Neural Network Training](#Neural-network-training)
-5. [Arduino code](#Arduino-code)
+5. [Future work](#Limitations-and-future-work)
 6. [External Links](#External-links)
 
 ## Introduction
@@ -67,8 +67,25 @@ The protoboard shield and Nano should fit in snugly into the enclosure a shown:
 <img src="https://github.com/user-attachments/assets/5fbe3be8-6559-439e-9ca4-060c5f73f5da" width="600" />
 
 ## Neural Network Training
+If you want to make changes to the neural network and/or conduct your own training, please head over to the Edge Impulse project page in the external links section below. Once there, you should be able to create an account and clone the project to begin your own training. The Edge Impulse dashboard is simple and easy to use, but some further reading to edge AI and deep learning is recommended if you do not already posses the prerequisite background knowledge:
 
-## Arduino code
+<img src="https://github.com/user-attachments/assets/bd421f54-0407-40d7-a3e9-6efdce062962" width="600" />
+
+As mentioned, the model architecture is that of a Convolutional Neural Network (CNN), consisting of 3 convolution layers and 2 dense layers, with reshape, flatten and dropout layers in between:
+
+<img src="https://github.com/user-attachments/assets/1e013fb8-a72f-4050-bbc2-0dfbe4084151" width="600" />
+
+You can find the record of the experiments run to determined the best hyperparameters and model architecture in the EON Tuner section of the Edge Impulse project page.
+
+## Limitations and future work
+The model was trained using a free account on Edge Impulse and therefore compute time was limited. You may find that your mileage may vary if you already have or decide to purchase a subscription from Edge Impulse. At present, the model is limited to classifying only the 8 classes of the numerals 0-7. It has also been trained solely on one person's handwriting data, and therefore may not be as accurate as could be. In particular, the numerals 0 & 6 and 1 & 4 are easily confused, likely due to the similar pen strokes required to draw these characters.
+
+Additionally, in terms of hardware, it is probably worth investigating if the electronics can be miniaturised by using a custom PCB. The prototype device also currently runs off a 5V powerbank, and it would be much better if the power supply could be integrated into the pen itself to improve ergonomics and appearance.
 
 ## External Links
 Edge Impulse project: https://studio.edgeimpulse.com/studio/661138
+
+Suggested further reading:
+- AI at the Edge by Situnayake and Plunkett
+- TinyML by Situnayake and Warden
+- Deep Learning by Courville, Goodfellow and Yoshua Bengio
