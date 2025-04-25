@@ -43,6 +43,13 @@ The circuit diagram for the protoboard is also shown below, using fritzing:
 <img src="https://github.com/user-attachments/assets/630205bd-90a1-436f-8b83-0ec88d52b4be" height="600" />
 
 ### Enclosure
+3D models and print files are available in the ```enclosure``` folder. These should include everything needed to print and construct the enclosure attachment, which can then be fitted on to the end of your ink pen.
+
+<img src="https://github.com/user-attachments/assets/d8c9f073-aed9-4296-b22c-d35cc7e72144" width="600" />
+
+The protoboard shield and Nano should fit in snugly into the enclosure a shown:
+
+<img src="https://github.com/user-attachments/assets/321c5bcd-7565-4180-8fb0-e5611cb777d8" width="600" />
 
 ### Usage
 1. The device does not call the model to start running inference on your handwriting until you have moved it. This is due to a conditional in the code, which does not start the inference cycle if no movement is detected in the onboard inertial measurement unit (IMU)
